@@ -1,4 +1,12 @@
-= spacegrid II.
+= Spacegrid
+
+Uses reverse BFS for "linear" complexity solution O(n * station_count).
+
+Full tests completed in roughly 3 seconds (4.10 GHz) on WSL.
+
+Almost everything is written in C/C++ because I was unable to find what was causing 70 seconds of delay (inline function did not inline even though compiler does -O2 and profiler did not show the function...)
+
+
 :toc:
 :note-caption: :information_source:
 :warning-caption: :warning:
